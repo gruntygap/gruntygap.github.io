@@ -24,33 +24,54 @@ a {
     text-decoration: auto;
 }
 
+.card {
+    border: 1px solid black;
+    background-color: white;
+}
+
 @media only screen and (max-width: 600px) {
     .v-center {
         position: absolute;
         width: 80%;
-        height: 15%;
         left: 50%;
         top: 50%;
-        margin-left: -40%;
-        margin-top: -7.5%;
-        background-color: white;
+        margin-left: -45%;
+        margin-top: -20%;
+        padding: 5%;
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
     .v-center {
         position: absolute;
-        width: 50%;
-        height: 15%;
+        width: 482px;
         left: 50%;
         top: 50%;
-        margin-left: -25%;
-        margin-top: -7.5%;
-        background-color: white;
+        margin-left: -270px;
+        margin-top: -120px;
+        padding: 30px;
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) and (max-width: 1799px) {
+    .v-center {
+        position: absolute;
+        width: 60%;
+        left: 50%;
+        top: 50%;
+        margin-left: -35%;
+        margin-top: -20%;
+        padding: 5%;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    #link-sheet>p {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
     .v-center {
         position: absolute;
         width: 40%;
@@ -58,8 +79,13 @@ a {
         left: 50%;
         top: 50%;
         margin-left: -20%;
-        margin-top: -7.5%;
-        background-color: white;
+        margin-top: -15%;
+    }
+    h1 {
+        font-size: 6rem;
+    }
+    #link-sheet>p {
+        font-size: 2em;
     }
 }
 
