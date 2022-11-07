@@ -9,8 +9,6 @@ let screenW = htmlTag.clientWidth,
     hForward = true,
     move = true;
 
-document.getElementById('background').style['backgroundColor'] = 'black';
-
 addEventListener('resize', (_event) => {
     screenW = htmlTag.clientWidth;
     screenH = htmlTag.clientHeight;
